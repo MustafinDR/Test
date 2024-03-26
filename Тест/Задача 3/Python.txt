@@ -1,0 +1,25 @@
+def is_correct_bracket(text):
+    a, b, c = 0, 0, 0
+    for i in text:
+        if i == '(':
+            a += 1
+        elif i == ')':
+            a -= 1
+            
+        elif i == "{":
+            b += 1
+        elif i == "}":
+            b -= 1
+            
+        elif i == '[':
+            c += 1
+        elif i == ']':
+            c -= 1
+        
+        if a < 0 or b < 0 or c < 0:
+            break
+    return a == 0 and b == 0 and c == 0
+
+txt = input()
+
+print(is_correct_bracket(txt))

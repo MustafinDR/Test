@@ -1,0 +1,10 @@
+function coppy(obj) {
+    let clone = {}
+	for (let key in obj) {
+		if typeof (obj[key]) == "object" {
+			function coppy(obj[key])
+			}
+		clone[key] = user[key];
+	}
+	returne clone
+}

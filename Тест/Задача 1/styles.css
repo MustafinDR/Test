@@ -1,0 +1,46 @@
+p3 {
+	display: inline-block;
+	border: 2px solid black;
+	height: 0px;
+	margin: 0px;
+	padding: 80px 30px;
+	width: 0px;
+	background: #ACA772;
+	position: absolute;
+	top: 100px;
+	left: 300px;
+}
+p0 {
+	display: inline-block;
+	border: 651px solid transparent;
+	border-bottom: 400px solid #4E2613;
+	border-top:0px solid transparent;
+	height: 0px;
+	margin: 0px 0px 0px 50px;
+	padding: px;
+	width: 0px;
+	background: #eaeaed;
+	position: relative;
+	background-color:transparent;
+}
+p1 {
+	display: block;
+	border: 2px solid black;
+	height: 100px;
+	margin: 0px 50px 50px 50px;
+	padding: 400px 700px 400px 500px;
+	width: 100px;
+	background: #ACA772;
+	position: absolute;
+	top: 408px;
+	left: 8px;
+}
+p2 {
+	border: 2px solid black;
+	border-radius: 50%;
+	height: 100px;
+	margin: 50px;
+	padding: 100px;
+	width: 100px;
+	background: #83F7FB;
+}
